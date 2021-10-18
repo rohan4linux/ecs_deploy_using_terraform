@@ -8,7 +8,7 @@ resource "aws_ecs_task_definition" "hello_world" {
   container_definitions = <<DEFINITION
 [
   {
-    "image": "rohan4linux/web:v1.0",
+    "image": "036281399343.dkr.ecr.us-east-1.amazonaws.com/jenkins-pipeline-build-demo",
     "cpu": 256,
     "memory": 512,
     "name": "hello-world-app",
